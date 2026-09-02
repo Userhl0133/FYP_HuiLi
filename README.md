@@ -2,7 +2,7 @@
 
 ### Name: Kuek Hui Li
 ### FYP ID: CCDS26-0152
-### Project Title: Setting up of Infrastructure for SpeechLab Applications with Terraform and Terragrunt
+### Project Title: Drift-Aware Multi-Environment Infrastructure Provisioning for SpeechLab ASR Using Terraform and Terragrunt
 ### Supervisor: Prof Chng Eng Siong
 ### Start Date: 11 Aug 2026
 ### End Date: 12 May 2027
