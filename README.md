@@ -9,8 +9,9 @@
 
 ## Overview
 
-As SpeechLab ASR application continues to go through modifications and updates, the infrastructure requirement changed. The current SpeechLab application is more complex as it consists of two different ways to process real time audio and recorded audio files. These new approaches introduce different storage, networking and availability requirements. Hence, the deployment of resources should be easy to create and modify without the need to manually configure every resource from scratch. Existing project infrastructure does not address the different requirements of development and production environment within a single reusable approach. The development environment requires lower costs and greater flexibility for testing and experimentation, while production environment should have stricter access control and better network security.
-Another gap is the limited visibility of infrastructure changes before deployment. This project will check for configuration drift and generate a pre-deployment infrastructure cost estimation before user provision resources. Lastly, existing approach does not show how infrastructure will handle pods failure. This project will focus on using Terraform as an Infrastructure-as-Code (IaC) tool with Terragrunt to manage and organise infrastructure configurations across multiple environments.
+This project focuses on improving the cloud infrastructure supporting the SpeechLab ASR application, which processes both recorded audio files in batch and real-time audio streams. As the application continues to evolve, its infrastructure requirements have become more complex, with different compute, storage, networking, security, and availability requirements.
+
+This FYP covers the design and deployment of reusable AWS infrastructure using Terraform and Terragrunt, with separate configurations for development and production environments. It also focuses on improving infrastructure visibility and reliability through configuration drift detection, pre-deployment cost estimation, monitoring, and failure and recovery testing, while supporting the deployment of SpeechLab's batch and real-time audio processing components.
 
 ## Video Updates
 
