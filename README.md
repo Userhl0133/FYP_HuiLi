@@ -9,9 +9,9 @@
 
 ## Overview
 
-This project focuses on improving the cloud infrastructure supporting the SpeechLab ASR application, which processes both recorded audio files in batch and real-time audio streams. As the application continues to evolve, its infrastructure requirements have become more complex, with different compute, storage, networking, security, and availability requirements.
+This project focuses on improving the cloud infrastructure supporting the SpeechLab ASR application, which processes both recorded audio files in batch and real-time audio streams. As the application continues to evolve, its infrastructure requirements have become more complex, introducing different compute, storage, networking, security, and availability requirements.
 
-This FYP covers the design and deployment of reusable AWS infrastructure using Terraform and Terragrunt, with separate configurations for development and production environments. It also focuses on improving infrastructure visibility and reliability through configuration drift detection, pre-deployment cost estimation, monitoring, and failure and recovery testing, while supporting the deployment of SpeechLab's batch and real-time audio processing components.
+This FYP covers the design and deployment of reusable AWS infrastructure using Terraform and Terragrunt, with separate configurations for development and production environments. It also focuses on improving infrastructure management and reliability through configuration drift detection and restoration, pre-deployment cost estimation, and infrastructure monitoring. In addition, the project will improve application resilience by configuring the Kubernetes infrastructure to respond to pod failures, replace failed pods, and restore the desired application state.
 
 ## Video Updates
 
