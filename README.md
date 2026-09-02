@@ -1,4 +1,3 @@
-# FYP_HuiLi
 # FYP
 
 ### Name: Kuek Hui Li
