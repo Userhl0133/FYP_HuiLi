@@ -20,12 +20,12 @@ Playlist: https://www.youtube.com/playlist?list=PLLY7A8LxkLYI
 
 ## Roadmap / Milestones
 
-- Phase 1: Understand the existing SpeechLab application architecture and infrastructure requirements.
-- Phase 2: Set up the Terraform and Terragrunt project structure.
-- Phase 3: Provision the AWS networking infrastructure, including the VPC, public and private subnets.
-- Phase 4: Provision the Amazon EKS cluster, managed node group, IAM roles and Amazon ECR repository.
-- Phase 5: Configure Amazon S3, Amazon EFS and monitoring with Prometheus and Grafana.
-- Phase 6: Validate, document and optimize the infrastructure for reliability, security and cost.
+Phase 1 — Research and Requirements: Review the existing SpeechLab architecture and identify its infrastructure needs.
+Phase 2 — Infrastructure Planning: Design the Terraform and Terragrunt structure for development and production.
+Phase 3 — AWS Infrastructure: Build the networking, security and supporting cloud resources.
+Phase 4 — Kubernetes Platform: Set up the AWS container platform, worker nodes, image storage and application storage.
+Phase 5 — Application Deployment: Deploy the SpeechLab applications and configure the complete batch and streaming workflow.
+Phase 6 — Testing and Improvement: Add monitoring, test the complete deployment, document the project and improve reliability, security and cost.
 
 ## Contact
 
