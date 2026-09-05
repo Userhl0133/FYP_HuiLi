@@ -1,6 +1,7 @@
 # FYP
 
 ### Name: Kuek Hui Li
+### Working with: Vu Thi Ly
 ### FYP ID: CCDS26-0152
 ### Project Title: Drift-Aware Multi-Environment Infrastructure Provisioning for SpeechLab ASR Using Terraform and Terragrunt
 ### Supervisor: Prof Chng Eng Siong
